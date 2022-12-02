@@ -1,13 +1,21 @@
 package main;
 
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.io.InputStream;
+
+import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 
 public class Game extends JFrame {
 	
 	private GameScreen gameScreen;	
 	
+	private BufferedImage img;
+	
 	public Game() {
-//		System.out.println("Hello from constructur");
+		
+		importImg();
 		setSize(640,640);
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -15,10 +23,24 @@ public class Game extends JFrame {
 		gameScreen = new GameScreen();
 		add(gameScreen);
 	}
+	
+
+
+	private void importImg() {
+		InputStream is = getClass().getResourceAsStream("/spriteatlas.png");
+		try {
+			System.out.println(is);
+			img = ImageIO.read(is);
+		} catch (IOException e) {
+		
+			e.printStackTrace();
+		}
+		
+	}
+
+
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Start of our Tutorial.Hello there!!");
 
 		Game game = new Game();
 	}
