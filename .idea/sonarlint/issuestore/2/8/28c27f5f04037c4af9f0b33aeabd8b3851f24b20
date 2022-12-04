@@ -1,0 +1,27 @@
+
+=
+java:S2189^""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+D
+java:S21896""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8½–ó½Í0
+g	java:S116"RRename this field "FPS_SET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤„Éü
+l	java:S116"RRename this field "UPS_SET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÓ–·ûÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(¤„Éü
+<
+java:S1170"!Make this final field static too.(œÓ–·ûÿÿÿÿ
+n
+java:S1450"YRemove the "gameThread" field and declare it as a local variable in the relevant methods.(÷Þš
+;
+java:S1948"%Make "img" transient or serializable.(·“¿ñ
+A
+java:S1948",Make "gameThread" transient or serializable.(÷Þš
+J	java:S1086")Either remove or fill this block of code.(˜ïˆžÿÿÿÿÿ8Ý–ó½Í0
+S	java:S106="9Replace this use of System.out or System.err by a logger.(Ÿ±¿”úÿÿÿÿ
+Q	java:S125G"<This block of commented-out lines of code should be removed.(žËó«
+Q
+java:S1117\";Rename "updates" which hides the field declared at line 16.(úžŠ›
+S	java:S106n"9Replace this use of System.out or System.err by a logger.(Æ——ùúÿÿÿÿ
+O
+java:S11444"-Remove this unused private "loopGame" method.(„Ç÷Èüÿÿÿÿ8é–ó½Í0
+B
+java:S1144;",Remove this unused private "callUPS" method.(Ã¡Ì 
